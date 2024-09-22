@@ -11,14 +11,7 @@ Feature selection with Recursive Feature Elimination (RFE)
 Model training and evaluation using Linear Regression and XGBoost
 Cross-validation for robust performance assessment
 Model performance comparison using R² score, Mean Squared Error (MSE), and Mean Absolute Error (MAE)
-Installation:
 
-Clone this repository: git clone https://github.com/<your-username>/california-housing-price-prediction.git
-Install required libraries: pip install numpy pandas matplotlib seaborn scikit-learn xgboost
-Usage:
-
-Navigate to the project directory: cd california-housing-price-prediction
-Run the script: python california_housing_prediction.py
 Results:
 
 The script will output model performance metrics, including R², MSE, and MAE for both Linear Regression and XGBoost models. Visualization of these metrics will also be generated. Additionally, the script produces scatter plots comparing actual vs. predicted prices and a residual plot to assess model assumptions.
